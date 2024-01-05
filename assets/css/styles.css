@@ -37,6 +37,10 @@ nav a{
 .desktop-nav{
     display: flex;
 }
+.menu-icon{
+        width: 25px;
+    }
+
 
 
 
@@ -51,6 +55,14 @@ nav a{
         background-color: palegreen;
         
     }
+    .mobile-nav ul a{
+        display: none;
+    }
+    nav{
+        padding: 20px;
+    }
+
+    
 
 }
 
@@ -67,7 +79,12 @@ nav a{
         background-color: purple;
         
     }
-  
+   .mobile-nav ul a{
+        display: none;
+    }
+    nav{
+        padding: 20px;
+    }
 }
 
 
@@ -81,6 +98,11 @@ nav a{
         display: flex;
         background-color: orangered;
         
+    }.mobile-nav ul a{
+        display: none;
+    }
+    nav{
+        padding: 20px;
     }
   
 }
@@ -95,5 +117,11 @@ nav a{
         display: flex;
         background-color: violet;
         
+    }
+    .mobile-nav ul a{
+        display: none;
+    }
+    nav{
+        padding: 20px;
     }
 }
